@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Header from './components/header'
 import Footer from "./components/footer";
+import Link from "next/link";
 
 export default function App() {
 
@@ -9,59 +10,55 @@ export default function App() {
     return (
     <div className="min-h-screen grid grid-rows-[auto_1fr_auto] overflow-x-hidden">
 
-        <Header />
-
-        <div id="page" className=" flex flex-col items-center h-[100vh] my-50">
-            <section id="parallax" className="h-[80vh]">
-                <h1 className="text-center">Bienvenue dans mon</h1>
-                <h1 className="text-center">PORTFOLIO</h1>
+        <div id="page" className="hero-section">
+            <section id="parallax" className="h-[100vh] items-center flex flex-col justify-center">
+                <h1 className="text-[#355a53] text-3xl">Bienvenue dans mon</h1>
+                <h1 className="text-[#359381] lobster text-8xl">Portfolio</h1>
             </section>
 
-            <section id="infos" className="w-[80%]">
-                <section>
-                    <h3>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque quae in minus neque corporis.
-                    </h3>
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni necessitatibus, quibusdam ad
-                    provident officia laudantium voluptatem ab ut dolor nemo facere eveniet velit quisquam molestiae, incidunt
-                    praesentium minima! Aperiam nam iure quidem dolor nostrum sed magnam at facere error! Dolor accusamus eaque
-                    placeat dolore, cumque excepturi aperiam corrupti quis iste, mollitia aliquam iusto aspernatur exercitationem
-                    nam ipsa maiores quibusdam voluptate libero porro explicabo illo. Deserunt cumque maiores soluta repellendus
-                    exercitationem laborum minus odio? Consectetur iste labore accusamus dolore asperiores beatae placeat est
-                    explicabo aspernatur eos aut repellendus in ullam nesciunt ab earum, accusantium amet dolorem at numquam
-                    nihil ex.
+            <section id="infos " className="mx-auto">
+                <div className="h-screen items-center flex flex-col justify-center">
+                    <h2 className="lobster text-[#359381] text-4xl w-[80%] mb-15 ml-25">
+                    À propos de moi !
+                    </h2>
+                    <p className="text-xl w-[70%] mb-[2vh]">
+                        Hey, moi c’est Mathis TONG-HATET, j’ai 19 ans et je suis actuellement étudiant en informatique à Nantes, dans le cadre d’un BUT. 
+                        Curieux de nature, je m’intéresse à un peu de tout : j’aime découvrir, apprendre et comprendre, quels que soient les domaines.
                     </p>
-                </section>
+                    <p  className="text-xl w-[70%] mb-[2vh]">
+                        La musique occupe une place importante dans ma vie. J’apprend à jouer du piano, mais au-delà de l’instrument, 
+                        j’ai aussi un vrai attrait pour les paysages naturels : j’aime m’évader, observer la beauté du monde qui nous entoure.
+                    </p>
+                    <p className="text-xl w-[70%]">
+                        Je suis quelqu’un d’enthousiaste, motivé et sérieux. J’aborde ce que je fais avec implication, sans jamais perdre le plaisir d’apprendre. 
+                        Il y a très peu de choses que je déteste : je préfère voir dans chaque sujet une opportunité de découverte.
+                    </p>
+                </div>
 
-                <section id="skills">
-                    <h3>Je travaille avec :</h3>
-                    <div>
-                        <a href="#">GoLang</a>
-                        <a href="#">HTML</a>
-                        <a href="#">CSS</a>
-                        <a href="#">JavaScript</a>
-                        <a href="#">Kotlin / Java</a>
-                        <a href="#">SQL</a>
-                        <a href="#">Python</a>
+                <div id="skills" className="min-h-[40vh] m-[5vh]" >
+                    <h3 className="text-[#359381] text-3xl w-[80%] mb-8 ml-15">Je travaille avec :</h3>
+                    <div className="grid grid-flow-row grid-cols-5 gap-4">
+
                     </div>
-                </section>
 
-                <section>
+                    <h3 className="text-[#359381] text-3xl w-[80%] mb-8 ml-15">J&apos;utilise :</h3>
+                    <div className="grid grid-flow-row grid-cols-5 gap-4">
+                        
+                    </div>
+                </div>
+
+                <div id="projects" className="h-[100vh]">
                     <h3>Voici quelques-uns de mes projets :</h3>
                     <div>
-                        <a href="#">Quadtree</a>
-                        <a href="#">BD</a>
-                        <a href="#">Site 1</a>
-                        <a href="#">Site 2</a>
-                        <a href="#">Portfolio</a>
+                        <Link href="/">Portfolio</Link>
+                        <a href="https://gitlab.univ-nantes.fr/E248268G/farge-tong-hatet-quadtree-sae">Quadtree</a>
+                        <a href="https://docs.google.com/document/d/1TEhzGx-T3rmBIp_RMVq2A9e8uaPJf4WUEYYIvv3wgY8/edit?tab=t.0">BD</a>
+                        <a href="https://gitlab.univ-nantes.fr/pub/but/but1/r1.02/r1.02.dm/tp1-1/equipe-11-05_goncalves-amorim-diego_tong-hatet-mathis">Site 1</a>
+                        <a href="https://gitlab.univ-nantes.fr/E243619D/site-web-communication">Site 2</a>
                     </div>
-                </section>
+                </div>
             </section>
         </div>
-
-        <Footer />
-
     </div>
   );
 }
