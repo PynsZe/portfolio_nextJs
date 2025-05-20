@@ -35,19 +35,127 @@ export default function App() {
                     </p>
                 </div>
 
-                <div id="skills" className="min-h-[40vh] m-[5vh]" >
-                    <h3 className="text-[#359381] text-3xl w-[80%] mb-8 ml-15">Je travaille avec :</h3>
-                    <div className="grid grid-flow-row grid-cols-5 gap-4">
-
+                <div id="skills" className="min-h-[60vh] m-[5vh]" >
+                    <h3 className="text-[#359381] text-3xl w-[80%] mx-auto my-10">Je travaille avec :</h3>
+                    <div className="w-[90%] mx-auto flex gap-4 wrap">
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
                     </div>
 
-                    <h3 className="text-[#359381] text-3xl w-[80%] mb-8 ml-15">J&apos;utilise :</h3>
-                    <div className="grid grid-flow-row grid-cols-5 gap-4">
-                        
+                    <h3 className="text-[#359381] text-3xl w-[80%] mx-auto my-10">J&apos;utilise :</h3>
+                    <div className="w-[90%] mx-auto flex gap-4 wrap">
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
+                        <div className="border-2 h-15 w-30 rounded-4xl flex items-center justify-center">
+                            <div className="relative h-8 w-8">
+                                <Image src="/img/html-124-svgrepo-com.svg" alt="HTML" fill={true}></Image>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div id="projects" className="h-[100vh]">
+                <div id="projects" className="h-[100vh] ">
                     <h3>Voici quelques-uns de mes projets :</h3>
                     <div>
                         <Link href="/">Portfolio</Link>
