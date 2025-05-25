@@ -12,9 +12,9 @@ const Header = forwardRef<HTMLElement>((_, ref) => {
     >
       <Link href="/" className="text-3xl font-semibold text-[#359381]">Logo</Link>
       <nav className="hidden md:flex">
-        <Link href="#" className="no-underline text-[#359381] px py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">À propos</Link>
-        <Link href="#" className="no-underline text-[#359381] px-[0.5vh] py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">Mes Documents</Link>
-        <Link href="#" className="no-underline text-[#359381] px-[0.5vh] py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">Mes projets</Link>
+        <Link href="/#about" className="no-underline text-[#359381] px py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">À propos</Link>
+        <Link href="/documents" className="no-underline text-[#359381] px-[0.5vh] py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">Mes Documents</Link>
+        <Link href="/projects" className="no-underline text-[#359381] px-[0.5vh] py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">Mes projets</Link>
         <Link href="#" className="no-underline text-[#359381] px-[0.5vh] py-2 rounded-[20] mx-2 font-semibold hover:bg-[#359381] hover:text-white">Autre</Link>
       </nav>
     </header>
